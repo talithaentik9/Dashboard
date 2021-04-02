@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello,Entik"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="its thasa store !"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-black"
+            android:textSize="23dp"
+            android:layout_below="@id/hello"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/profile"/>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/search"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:layout_marginLeft="55dp"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:textColor="#03082b"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/digitalart1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Art"
+                android:textSize="22dp"
+                android:textColor="#d703082b"
+                android:textStyle="bold"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="75dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Product"
+                android:textSize="14dp"
+                android:textColor="#ab03082b"
+                android:textStyle="bold"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="105dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/traditionalart1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traditional Art"
+                android:textSize="22dp"
+                android:textColor="#d703082b"
+                android:textStyle="bold"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="75dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Product"
+                android:textSize="14dp"
+                android:textColor="#ab03082b"
+                android:textStyle="bold"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="105dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product List Bestseller"
+            android:textColor="#03082b"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="23dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/panah"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/octopuspict"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="octopus sticker"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ready stock 12344"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#6003082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eggpict"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="egg sticker"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ready  stock 15521"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#6003082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
